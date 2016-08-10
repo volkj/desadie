@@ -10,8 +10,8 @@
 --	attached to them, as Name1234. Only add the name w/o pattern.
 
 local fakeclient_nicknames = {
-								"Sadie",
-								}
+				"Sadie",
+}
 
 minetest.register_on_joinplayer(function(player)
 	-- register a timeout of 5 seconds before showing the formspec
